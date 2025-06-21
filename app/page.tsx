@@ -4,55 +4,34 @@ export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
+        <h1>HoloMyth</h1>
         <div className="card">
           <img src="https://hololive.hololivepro.com/wp-content/uploads/2020/07/Takanashi-Kiara_list_thumb.png"></img>
+          <h2 className="card-title">Takanashi Kiara</h2>
+          <p className="flavor-text">“Kikkeriki!!! Welcome to KFP, are you here to order or to apply for a job?”</p>
         </div>
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Customize ko nalang mamaya.
-          </li>
-        </ol>
+        <div className="card">
+          <img src="https://hololive.hololivepro.com/wp-content/uploads/2020/07/Gawr-Gura_list_thumb.png"></img>
+          <h2 className="card-title">Gawr Gura</h2>
+          <p className="flavor-text">“Domo!! Sa-me desu!! Have you had shark thoughts today?”</p>
+        </div>
+        <div className="card">
+          <img src="https://hololive.hololivepro.com/wp-content/uploads/2020/07/Ninomae-Inanis_list_thumb.png"></img>
+          <h2 className="card-title">Ninomae Ina'nis</h2>
+          <p className="flavor-text">“Good morning, afternoon, evening! Hope you're having a WAHnderful day!”</p>
+        </div>
+        <div className="card">
+          <img src="https://hololive.hololivepro.com/wp-content/uploads/2020/07/Watson-Amelia_list_thumb.png"></img>
+          <h2 className="card-title">Amelia Watson</h2>
+          <p className="flavor-text">“Test test, Hello~ Amelia Watson! #1 Detective at your service!”</p>
+        </div>
+        <div className="card">
+          <img src="https://hololive.hololivepro.com/wp-content/uploads/2020/07/Mori-Calliope_list_thumb.png"></img>
+          <h2 className="card-title">Mori Calliope</h2>
+          <p className="flavor-text">“Dead Beats, listen up! Your Mori's been working hard for you!”</p>
+        </div>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
+        
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a
