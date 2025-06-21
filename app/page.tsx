@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
+    <div className="display">
       <main>
         <h1>HoloMyth</h1>
         <div className="card">
